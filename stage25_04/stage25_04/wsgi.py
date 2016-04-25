@@ -1,5 +1,5 @@
 """
-WSGI config for stage21_04 project.
+WSGI config for stage25_04 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "stage21_04.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "stage25_04.settings")
 
 application = get_wsgi_application()
